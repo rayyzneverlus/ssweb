@@ -21,7 +21,7 @@ Simple and powerful website screenshot utility powered by Puppeteer.
 ## Installation
 
 ```bash
-npm install ssweb
+npm install screenshotwebsite
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ npm install ssweb
 ### Capture Screenshot
 
 ```js
-const ssweb = require("ssweb");
+const ssweb = require("screenshotwebsite");
 
 (async () => {
     const result = await ssweb.capture(
@@ -43,7 +43,7 @@ const ssweb = require("ssweb");
 ### Save Screenshot
 
 ```js
-const ssweb = require("ssweb");
+const ssweb = require("screenshotwebsite");
 
 (async () => {
     await ssweb.save(
@@ -58,7 +58,7 @@ const ssweb = require("ssweb");
 ### Mobile Screenshot
 
 ```js
-const ssweb = require("ssweb");
+const ssweb = require("screenshotwebsite");
 
 (async () => {
     const result = await ssweb.mobile(
@@ -72,7 +72,7 @@ const ssweb = require("ssweb");
 ### Desktop Screenshot
 
 ```js
-const ssweb = require("ssweb");
+const ssweb = require("screenshotwebsite");
 
 (async () => {
     const result = await ssweb.desktop(
@@ -86,7 +86,7 @@ const ssweb = require("ssweb");
 ### Base64 Output
 
 ```js
-const ssweb = require("ssweb");
+const ssweb = require("screenshotwebsite");
 
 (async () => {
     const base64 = await ssweb.base64(
@@ -100,7 +100,7 @@ const ssweb = require("ssweb");
 ### Buffer Output
 
 ```js
-const ssweb = require("ssweb");
+const ssweb = require("screenshotwebsite");
 
 (async () => {
     const buffer = await ssweb.buffer(
