@@ -1,8 +1,8 @@
-ssweb
+# ssweb
 
 Simple and powerful website screenshot utility powered by Puppeteer.
 
-Features
+## Features
 
 - 📸 Full Page Screenshot
 - 📱 Mobile Screenshot
@@ -18,14 +18,17 @@ Features
 - ☁️ Render Ready
 - ▲ Vercel Compatible
 
-Installation
+## Installation
 
+```bash
 npm install ssweb
+```
 
-Usage
+## Usage
 
-Capture Screenshot
+### Capture Screenshot
 
+```js
 const ssweb = require("ssweb");
 
 (async () => {
@@ -35,9 +38,11 @@ const ssweb = require("ssweb");
 
     console.log(result);
 })();
+```
 
-Save Screenshot
+### Save Screenshot
 
+```js
 const ssweb = require("ssweb");
 
 (async () => {
@@ -48,9 +53,11 @@ const ssweb = require("ssweb");
 
     console.log("Saved!");
 })();
+```
 
-Mobile Screenshot
+### Mobile Screenshot
 
+```js
 const ssweb = require("ssweb");
 
 (async () => {
@@ -60,9 +67,11 @@ const ssweb = require("ssweb");
 
     console.log(result);
 })();
+```
 
-Desktop Screenshot
+### Desktop Screenshot
 
+```js
 const ssweb = require("ssweb");
 
 (async () => {
@@ -72,9 +81,11 @@ const ssweb = require("ssweb");
 
     console.log(result);
 })();
+```
 
-Base64 Output
+### Base64 Output
 
+```js
 const ssweb = require("ssweb");
 
 (async () => {
@@ -84,9 +95,11 @@ const ssweb = require("ssweb");
 
     console.log(base64);
 })();
+```
 
-Buffer Output
+### Buffer Output
 
+```js
 const ssweb = require("ssweb");
 
 (async () => {
@@ -99,51 +112,40 @@ const ssweb = require("ssweb");
         buffer
     );
 })();
+```
 
-Methods
+## Methods
 
-capture(url, options)
+### capture(url, options)
 
 Capture a website screenshot.
 
-save(url, filename)
+### save(url, filename)
 
 Save screenshot directly to a file.
 
-mobile(url)
+### mobile(url)
 
 Capture using a mobile viewport.
 
-desktop(url)
+### desktop(url)
 
 Capture using a desktop viewport.
 
-base64(url)
+### base64(url)
 
 Return screenshot as Base64 string.
 
-buffer(url)
+### buffer(url)
 
 Return screenshot as Buffer.
 
-Example Response
-
-{
-  success: true,
-  url: "https://google.com",
-  timestamp: 1748510000000,
-  width: 1366,
-  height: 768,
-  buffer: <Buffer ...>,
-  base64: "iVBORw0KGgoAAA..."
-}
-
-Author
+## Author
 
 Muhammad Farel
 
 GitHub: https://github.com/rayyzneverlus
 
-License
+## License
 
 MIT
