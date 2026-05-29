@@ -1,0 +1,39 @@
+{
+  "name": "ssweb",
+  "version": "1.0.0",
+  "description": "Simple and powerful website screenshot utility powered by Puppeteer",
+  "main": "index.js",
+  "type": "commonjs",
+  "keywords": [
+    "screenshot",
+    "website",
+    "webshot",
+    "capture",
+    "puppeteer",
+    "ssweb"
+  ],
+  "author": "Muhammad Farel",
+  "license": "MIT",
+  "homepage": "https://github.com/rayyzneverlus/ssweb",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rayyzneverlus/ssweb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rayyzneverlus/ssweb/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "package.json",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@sparticuz/chromium": "^138.0.0",
+    "puppeteer": "^24.10.2",
+    "puppeteer-core": "^24.10.2"
+  }
+}
