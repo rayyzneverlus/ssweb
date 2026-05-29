@@ -1,5 +1,5 @@
 {
-  "name": "ssweb",
+  "name": "screenshotwebsite",
   "version": "1.0.0",
   "description": "Simple and powerful website screenshot utility powered by Puppeteer",
   "main": "index.js",
