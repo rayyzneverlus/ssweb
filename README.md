@@ -1,4 +1,4 @@
-ssweb
+SSWEB
 
 Simple and powerful website screenshot utility powered by Puppeteer.
 
