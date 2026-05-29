@@ -1,17 +1,17 @@
-SSWEB
+ssweb
 
 Simple and powerful website screenshot utility powered by Puppeteer.
 
 Features
 
-- 📸 Full page screenshot
-- 📱 Mobile screenshot
-- 🖥️ Desktop screenshot
-- 💾 Save screenshot to file
-- 🔤 Base64 output
-- 📦 Buffer output
+- 📸 Full Page Screenshot
+- 📱 Mobile Screenshot
+- 🖥️ Desktop Screenshot
+- 💾 Save To File
+- 🔤 Base64 Output
+- 📦 Buffer Output
 - 🚀 Node.js 18+
-- ⚡ Easy to use
+- ⚡ Easy To Use
 - 🖥️ VPS Ready
 - ⚙️ Pterodactyl Ready
 - ☁️ Railway Ready
@@ -106,50 +106,37 @@ capture(url, options)
 
 Capture a website screenshot.
 
-await ssweb.capture(
-    "https://google.com"
-);
-
 save(url, filename)
 
 Save screenshot directly to a file.
-
-await ssweb.save(
-    "https://google.com",
-    "google.png"
-);
 
 mobile(url)
 
 Capture using a mobile viewport.
 
-await ssweb.mobile(
-    "https://google.com"
-);
-
 desktop(url)
 
 Capture using a desktop viewport.
-
-await ssweb.desktop(
-    "https://google.com"
-);
 
 base64(url)
 
 Return screenshot as Base64 string.
 
-await ssweb.base64(
-    "https://google.com"
-);
-
 buffer(url)
 
 Return screenshot as Buffer.
 
-await ssweb.buffer(
-    "https://google.com"
-);
+Example Response
+
+{
+  success: true,
+  url: "https://google.com",
+  timestamp: 1748510000000,
+  width: 1366,
+  height: 768,
+  buffer: <Buffer ...>,
+  base64: "iVBORw0KGgoAAA..."
+}
 
 Author
 
